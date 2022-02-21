@@ -154,4 +154,3 @@ dmypy.json
 
 .idea/
 logs/*.log
-Love_Pet/settings/*.py
