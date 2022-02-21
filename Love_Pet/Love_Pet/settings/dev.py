@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'users.apps.UsersConfig',  # 用户模块
 ]
 
 MIDDLEWARE = [
@@ -94,6 +95,8 @@ DATABASES = {
         'NAME': 'love_pet'  # 数据库名字
     }
 }
+
+AUTH_USER_MODEL = 'users.User'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators

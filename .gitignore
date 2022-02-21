@@ -155,3 +155,5 @@ dmypy.json
 .idea/
 logs/*.log
 Love_Pet/settings/*.py
+Love_Pet/Love_Pet/apps/users/migrations/*.py
+
